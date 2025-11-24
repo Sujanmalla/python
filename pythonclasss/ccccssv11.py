@@ -9,4 +9,7 @@ rows = [
 with open('people.csv', 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(field)
-    csvwriter.writerows(rows)           
+    csvwriter.writerows(rows)        
+
+
+    in       

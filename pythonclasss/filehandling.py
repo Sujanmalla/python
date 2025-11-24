@@ -4,4 +4,3 @@ with open("hellow.txt", "r") as file:
 
 
  
-
