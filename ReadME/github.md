@@ -72,3 +72,96 @@ portifolio
 teamwork
 sharing code
 
+
+terminal 
+
+1. Go to your project folder
+
+cd your-project-folder 
+
+2. initalized git
+
+ git init
+
+3. Connect to github
+
+git remote add origin https://github.com/username/repo-name.git
+
+4. Add all files 
+
+ git add . 
+
+5. commit code
+
+git commit -m "first commit"
+
+6. push to github  
+
+ git branch -M main
+git push -u origin main
+
+
+
+# when there is multiple commite alreadyn happen 
+
+
+1. Check changes
+
+ git status
+
+2. add changes
+
+ git add .
+
+3. Commit changes
+
+ git commit -m "updated login page"
+
+4. push to github
+
+ git push 
+
+
+
+ # case 3: FIrst tinme tepo already has code
+
+
+ git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "merge changes"
+git push
+
+
+
+# Quick summary 
+
+# First time 
+
+git init
+git remote add origin <url>
+git add .
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+
+
+# After first push 
+
+git add .
+git commit -m "message"
+git push 
+
+# if GIthub already has files
+
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "merge"
+git push
+
+
+# simple understanding 
+
+add → select changes
+commit → save snapshot
+push → upload to GitHub
+pull → download from GitHub   
