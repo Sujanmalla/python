@@ -1,0 +1,8 @@
+| Code Type       | Required Syntax       | Example               |
+| --------------- | --------------------- | --------------------- |
+| Print statement | parentheses           | `print("Hello")`      |
+| Function        | `def` + `()` + `:`    | `def fun():`          |
+| If-else         | `if` / `else` + `:`   | `if x > 0:`           |
+| Loop            | `for` / `while` + `:` | `for i in range(5):`  |
+| Class           | `class` + `:`         | `class Student:`      |
+| Constructor     | `def __init__`        | `def __init__(self):` |
